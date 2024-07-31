@@ -7,7 +7,7 @@ app.config.from_object('config.Config')
 db = SQLAlchemy(app)
 #edit A sec
 from models import ToDo
-
+#eee
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form = ToDoForm()
