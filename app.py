@@ -5,7 +5,7 @@ from forms import ToDoForm
 app = Flask(__name__)
 app.config.from_object('config.Config')
 db = SQLAlchemy(app)
-
+#edit A sec
 from models import ToDo
 
 @app.route('/', methods=['GET', 'POST'])
